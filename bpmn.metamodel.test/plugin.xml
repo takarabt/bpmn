@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id$
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.omg.org/spec/BPMN/20100524/MODEL-XMI"
+            class="bpmn2.Bpmn2Package"
+            genModel="model/BPMN20.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="bpmn2"
+            class="bpmn2.util.Bpmn2ResourceFactoryImpl"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.generated_package">
+      <package
+            uri="http://www.omg.org/spec/BPMN/20100524/BPMNDI-XMI"
+            class="bpmndi.BpmndiPackage"
+            genModel="model/BPMN20.genmodel"/>
+   </extension>
+
+   <extension point="org.eclipse.emf.ecore.extension_parser">
+      <parser
+            type="bpmndi"
+            class="bpmndi.util.BpmndiResourceFactoryImpl"/>
+   </extension>
+
+</plugin>

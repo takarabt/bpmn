@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.0"?>
+
+<!--
+ <copyright>
+ </copyright>
+
+ $Id$
+-->
+
+<plugin>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="bpmn2.presentation.Bpmn2ModelWizardID"
+            name="%_UI_Bpmn2ModelWizard_label"
+            class="bpmn2.presentation.Bpmn2ModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/Bpmn2ModelFile.gif">
+         <description>%_UI_Bpmn2ModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="bpmn2.presentation.Bpmn2EditorID"
+            name="%_UI_Bpmn2Editor_label"
+            icon="icons/full/obj16/Bpmn2ModelFile.gif"
+            extensions="bpmn2"
+            class="bpmn2.presentation.Bpmn2Editor"
+            contributorClass="bpmn2.presentation.Bpmn2ActionBarContributor">
+      </editor>
+   </extension>
+
+   <extension point="org.eclipse.ui.newWizards">
+      <category
+            id="org.eclipse.emf.ecore.Wizard.category.ID"
+            name="%_UI_Wizard_category"/>
+      <wizard
+            id="bpmndi.presentation.BpmndiModelWizardID"
+            name="%_UI_BpmndiModelWizard_label"
+            class="bpmndi.presentation.BpmndiModelWizard"
+            category="org.eclipse.emf.ecore.Wizard.category.ID"
+            icon="icons/full/obj16/BpmndiModelFile.gif">
+         <description>%_UI_BpmndiModelWizard_description</description>
+         <selection class="org.eclipse.core.resources.IResource"/>
+      </wizard>
+   </extension>
+
+   <extension point="org.eclipse.ui.editors">
+      <editor
+            id="bpmndi.presentation.BpmndiEditorID"
+            name="%_UI_BpmndiEditor_label"
+            icon="icons/full/obj16/BpmndiModelFile.gif"
+            extensions="bpmndi"
+            class="bpmndi.presentation.BpmndiEditor"
+            contributorClass="bpmndi.presentation.BpmndiActionBarContributor">
+      </editor>
+   </extension>
+
+</plugin>
