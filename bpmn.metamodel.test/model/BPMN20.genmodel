@@ -4,7 +4,7 @@
     xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel" modelDirectory="/bpmn.metamodel.test/src"
     modelPluginID="bpmn.metamodel.test" modelName="BPMN20" importerID="org.eclipse.emf.importer.ecore"
     complianceLevel="6.0" copyrightFields="false">
-  <foreignModel>file:/home/atakarabt/Bureau/BPMN/NewEcore/BPMN20.ecore</foreignModel>
+  <foreignModel>BPMN20.ecore</foreignModel>
   <genPackages prefix="Bpmn2" resource="XML" disposableProviderFactory="true" loadInitialization="true"
       literalsInterface="false" ecorePackage="BPMN20.ecore#/">
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="BPMN20.ecore#//AdHocOrdering">
@@ -53,146 +53,6 @@
       <genEnumLiterals ecoreEnumLiteral="BPMN20.ecore#//RelationshipDirection/Backward"/>
       <genEnumLiterals ecoreEnumLiteral="BPMN20.ecore#//RelationshipDirection/Both"/>
     </genEnums>
-    <genClasses ecoreClass="BPMN20.ecore#//DocumentRoot">
-      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute BPMN20.ecore#//DocumentRoot/mixed"/>
-      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/xMLNSPrefixMap"/>
-      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/xSISchemaLocation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/activity"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/adHocSubProcess"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/flowElement"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/artifact"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/assignment"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/association"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/auditing"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/baseElement"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/baseElementWithMixedContent"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/boundaryEvent"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/businessRuleTask"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/callableElement"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/callActivity"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/callChoreography"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/callConversation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/conversationNode"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/cancelEventDefinition"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/eventDefinition"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/rootElement"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/catchEvent"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/category"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/categoryValue"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/choreography"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/collaboration"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/choreographyActivity"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/choreographyTask"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/compensateEventDefinition"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/complexBehaviorDefinition"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/complexGateway"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/conditionalEventDefinition"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/conversation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/conversationAssociation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/conversationLink"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/correlationKey"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/correlationProperty"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/correlationPropertyBinding"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/correlationPropertyRetrievalExpression"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/correlationSubscription"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/dataAssociation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/dataInput"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/dataInputAssociation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/dataObject"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/dataObjectReference"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/dataOutput"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/dataOutputAssociation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/dataState"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/dataStore"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/dataStoreReference"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/definitions"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/documentation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/endEvent"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/endPoint"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/error"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/errorEventDefinition"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/escalation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/escalationEventDefinition"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/event"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/eventBasedGateway"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/exclusiveGateway"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/expression"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/extension"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/extensionElements"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/flowNode"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/formalExpression"/>
-      <genFeatures property="None" children="true" createChild="false" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/gateway"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/globalBusinessRuleTask"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/globalChoreographyTask"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/globalConversation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/globalManualTask"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/globalScriptTask"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/globalTask"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/globalUserTask"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/group"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/humanPerformer"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/performer"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/resourceRole"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/implicitThrowEvent"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/import"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/inclusiveGateway"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/inputSet"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/interface"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/intermediateCatchEvent"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/intermediateThrowEvent"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/ioBinding"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/ioSpecification"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/itemDefinition"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/lane"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/laneSet"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/linkEventDefinition"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/loopCharacteristics"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/manualTask"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/message"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/messageEventDefinition"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/messageFlow"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/messageFlowAssociation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/monitoring"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/multiInstanceLoopCharacteristics"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/operation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/outputSet"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/parallelGateway"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/participant"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/participantAssociation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/participantMultiplicity"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/partnerEntity"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/partnerRole"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/potentialOwner"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/process"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/property"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/receiveTask"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/relationship"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/rendering"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/resource"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/resourceAssignmentExpression"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/resourceParameter"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/resourceParameterBinding"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/script"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/scriptTask"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/sendTask"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/sequenceFlow"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/serviceTask"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/signal"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/signalEventDefinition"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/standardLoopCharacteristics"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/startEvent"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/subChoreography"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/subConversation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/subProcess"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/task"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/terminateEventDefinition"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/text"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/textAnnotation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/throwEvent"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/timerEventDefinition"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/transaction"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//DocumentRoot/userTask"/>
-    </genClasses>
     <genClasses ecoreClass="BPMN20.ecore#//Activity">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMN20.ecore#//Activity/ioSpecification"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference BPMN20.ecore#//Activity/boundaryEventRefs"/>
@@ -774,30 +634,6 @@
       <genEnumLiterals ecoreEnumLiteral="BPMNDI.ecore#//ParticipantBandKind/middle_non_initiating"/>
       <genEnumLiterals ecoreEnumLiteral="BPMNDI.ecore#//ParticipantBandKind/bottom_non_initiating"/>
     </genEnums>
-    <genClasses ecoreClass="BPMNDI.ecore#//DocumentRoot">
-      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EAttribute BPMNDI.ecore#//DocumentRoot/mixed"/>
-      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/xMLNSPrefixMap"/>
-      <genFeatures property="None" notify="false" createChild="false" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/xSISchemaLocation"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/bPMNDiagram"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/bPMNEdge"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/bPMNLabel"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/bPMNLabelStyle"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/bPMNPlane"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/bPMNShape"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/bounds"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/point"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/font"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/diagramElement"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/diagram"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/edge"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/label"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/labeledEdge"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/labeledShape"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/node"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/plane"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/shape"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference BPMNDI.ecore#//DocumentRoot/style"/>
-    </genClasses>
     <genClasses image="false" ecoreClass="BPMNDI.ecore#//Diagram">
       <genFeatures createChild="false" ecoreFeature="ecore:EAttribute BPMNDI.ecore#//Diagram/documentation"/>
       <genFeatures property="Readonly" notify="false" createChild="false" ecoreFeature="ecore:EReference BPMNDI.ecore#//Diagram/ownedStyle"/>
